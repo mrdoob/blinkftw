@@ -1,6 +1,6 @@
-@-webkit-keyframes blink { 50% { visibility: hidden; } }
-@-moz-keyframes blink { 50% { visibility: hidden; } }
-@keyframes blink { 50% { visibility: hidden; } }
+@-webkit-keyframes blink { 70% { visibility: hidden; } }
+@-moz-keyframes blink { 70% { visibility: hidden; } }
+@keyframes blink { 70% { visibility: hidden; } }
 
 blink {
 	-webkit-animation: blink 0.5s alternate steps(1) infinite;
