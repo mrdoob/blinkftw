@@ -1,4 +1,4 @@
-blinkftw.js
+blinkftw
 ========
 
 #### Keeping `<blink>` alive ####
@@ -9,6 +9,9 @@ blinkftw.js
 ### Usage ###
 
 ```html
-<script src="blinkftw.js"></script>
+<link rel="stylesheet" href="blinkftw.css">
+```
+
+```html
 <blink>Oh hai!</blink>
 ```

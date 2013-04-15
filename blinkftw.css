@@ -1,0 +1,9 @@
+@-webkit-keyframes blink { 0% { opacity:0; } 49% { opacity:0; } 50% { opacity:1; } 100% { opacity:1; } }
+@-moz-keyframes blink { 0% { opacity:0; } 49% { opacity:0; } 50% { opacity:1; } 100% { opacity:1; } }
+@keyframes blink { 0% { opacity:0; } 49% { opacity:0; } 50% { opacity:1; } 100% { opacity:1; } }
+
+blink {
+	-webkit-animation: blink 0.5s alternate infinite;
+	-moz-animation: blink 0.5s alternate infinite;
+	animation: blink 0.5s alternate infinite;
+}
