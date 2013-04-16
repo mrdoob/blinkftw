@@ -3,7 +3,12 @@
 @keyframes blink { 70% { visibility: hidden; } }
 
 blink {
-	-webkit-animation: blink 0.5s alternate steps(1) infinite;
-	-moz-animation: blink 0.5s alternate steps(1) infinite;
-	animation: blink 0.5s alternate steps(1) infinite;
+  /* TDR style */
+  -webkit-animation: blink 0.04s alternate steps(1) infinite;
+  -moz-animation: blink 0.04s alternate steps(1) infinite;
+  animation: blink 0.04s alternate steps(1) infinite;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-weight: bold;
+  letter-spacing: -6px;
+  color: #f20088;
 }
